@@ -1,0 +1,29 @@
+.MainContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(59, 58, 58);
+  align-items: center;
+  justify-content: flex-start;
+  padding: 35px;
+}
+
+.TitleContainer {
+  padding: 30px 50px;
+  gap: 20px;
+  border-radius: 15px;
+  background-color: rgb(59, 58, 58);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TitleContainer h1 {
+  color: rgb(199, 6, 6);
+}
+.TitleContainer p {
+  color: white;
+}

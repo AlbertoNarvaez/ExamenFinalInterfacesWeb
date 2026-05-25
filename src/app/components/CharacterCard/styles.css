@@ -1,0 +1,31 @@
+.ContainerCard {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.ContainerCard:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ContainerCard img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  color: white;
+}

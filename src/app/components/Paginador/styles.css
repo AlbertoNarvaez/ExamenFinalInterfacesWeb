@@ -1,0 +1,51 @@
+.PaginadorContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.arrowContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.arrowContainer:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.pageNumber {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.pageNumber:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pageNumber.active {
+  background-color: rgb(128, 12, 12);
+  border-color: rgb(128, 12, 12);
+  color: white;
+}
+
+

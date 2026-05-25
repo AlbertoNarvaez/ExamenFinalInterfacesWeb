@@ -1,0 +1,9 @@
+.ContainerCharacters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  gap: 10px;
+}

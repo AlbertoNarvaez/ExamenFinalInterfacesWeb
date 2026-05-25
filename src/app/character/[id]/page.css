@@ -1,0 +1,55 @@
+.DetalleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.DetalleContainer img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.InfoDetalle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.InfoDetalle h1 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.InfoDetalle p {
+  color: white;
+}
+
+.InfoDetalle span {
+  font-weight: bold;
+  color: white;
+}
+
+.botonVolver {
+  padding: 8px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.botonVolver:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
